@@ -111,13 +111,13 @@ function easeOutQuart(x) {
 class Heart {
 	constructor() {
 		this.start = {
-			x: mouse.x + getRandomInt(-20, 20),
-			y: mouse.y + getRandomInt(-20, 20),
+			x: mouse.x + getRandomInt(-50, 50),
+			y: mouse.y + getRandomInt(-50, 50),
 			size: heartImage.width
 		}
 		this.end = {
-			x: this.start.x + getRandomInt(-200, 200),
-			y: this.start.y + getRandomInt(-600, -400)
+			x: this.start.x + getRandomInt(-400, 400),
+			y: this.start.y + getRandomInt(-600, 400)
 		}
 
 		this.x = this.start.x;
